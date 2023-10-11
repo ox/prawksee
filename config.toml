@@ -1,0 +1,9 @@
+[servers.hello]
+  bind = 8001
+  network = 'tcp'
+  address = 'localhost:9001'
+
+[servers.world]
+  bind = 8002
+  network = 'tcp'
+  address = 'localhost:9002'
